@@ -1,16 +1,30 @@
 import React from 'react';
+import i18next from 'i18next';
 
-const LanguageButton = ({ language, onClick }) => {
+const languajes = [
+  {
+    code: 'en',
+    name: 'English',
+    flag: 'united-kingdom.png',
+  },
+  {
+    code: 'es',
+    name: 'Español',
+    flag: 'spain.png',
+  },
+]
+
+const LanguageButton = ({ language }) => {
+
   const pickImage = () => {
-    switch (language) {
-      case 'Español':
-        return 'spain.png';
-      case 'English':
-        return 'united-kingdom.png';
-      default:
-        return '';
-    }
+    const l = languajes.find(l => l.name === language);
+    return l ? l.flag : 'flag.png';
   };
+
+  const onClick = () => {
+    const l = languajes.find(l => l.name === language);
+    i18next.changeLanguage(l.code);
+  }
 
   return (
     <button
