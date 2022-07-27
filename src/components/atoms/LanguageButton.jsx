@@ -5,12 +5,12 @@ const languajes = [
   {
     code: 'en',
     name: 'English',
-    flag: 'united-kingdom.png',
+    flag: 'assets/images/united-kingdom.png',
   },
   {
     code: 'es',
     name: 'Español',
-    flag: 'spain.png',
+    flag: 'assets/images/spain.png',
   },
 ]
 
