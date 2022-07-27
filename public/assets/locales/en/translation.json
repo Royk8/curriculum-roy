@@ -49,7 +49,7 @@
     "june": "June",
     "chemical-industry": "Chemical Industry",
     "intern-responsibilities": "Project management (feasibility and risk analysis, design improvement, management of quotes and contractors), maintenance department support (maintenance and staff scheduling. technical drawing).",
-    "featured-projects": "Featured projects",
+    "featured-projects": "FEATURED PROJECTS",
     "image-colorizer-description": "Deep Learning project that uses two neural networks in parallel to recreate color in a black and white image. Use TensorFlow and ScikitLearn in python.",
     "ra-nitrera-description": "Serious game focused on raising awareness of water care in the municipality of Concordia Antioquia and La Nitrera nature reserve. Developed in Unity with elements of augmented reality.",
     "gistura-description": "Search engine for cultural events in the city. It has a map for easy location of events that will happen in the coming days. Frontend application built with React.",
