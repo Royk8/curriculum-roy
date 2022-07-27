@@ -5,7 +5,7 @@ const Card = ({ title, inside }) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className='bg-yellow-300 w-4/5 rounded-t-md {!isOpen}: rounded-b-md'>
+    <div className='bg-yellow-300 w-full rounded-t-md {!isOpen}: rounded-b-md'>
       <button type='button' onClick={toggle} className='w-full p-3'>
         <p className='text-base font-bold'>{title}</p>
       </button>
