@@ -3,13 +3,14 @@ import { useTranslation } from 'react-i18next';
 
 import { Card } from 'components/atoms/Card';
 
-const FeatureProjectsSection = () => {
+const FeaturedProjectsSection = () => {
   const { t } = useTranslation();
   return (
-    <div className='flex flex-col items-center justify-center w-4/5'>
+    <div className='flex flex-col items-center justify-center w-4/5 m-2 space-y-2 '>
       <span className='text-white text-center font-medium p-2 w-full border border-yellow-300'>
         {t('featured-projects')}
       </span>
+      <div className='flex flex-col items-center justify-center w-full m-2 space-y-2 '>
       <Card
         title='Image Colorizer'
         inside={
@@ -66,8 +67,9 @@ const FeatureProjectsSection = () => {
           </ul>
         }
       />
+      </div>
     </div>
   );
 };
 
-export { FeatureProjectsSection };
+export { FeaturedProjectsSection };
