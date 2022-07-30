@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 
 import { ProfilePic } from "components/atoms/ProfilePic";
+import { LinksSet } from "components/molecules/LinksSet";
 
 const ProfileSection = () => {
     const { t } = useTranslation();
@@ -17,6 +18,7 @@ const ProfileSection = () => {
                     {t('roy-description')}
                 </p>
             </div>
+            <LinksSet />
         </div>        
     )
 }
