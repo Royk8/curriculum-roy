@@ -10,63 +10,62 @@ const FeaturedProjectsSection = () => {
       <span className='text-white text-center font-medium p-2 w-full border border-yellow-300'>
         {t('featured-projects')}
       </span>
-      <div className='flex flex-col items-center justify-center w-full m-2 space-y-2 '>
-      <Card
-        title='Image Colorizer'
-        inside={
-          <ul>
-            <li>{t('image-colorizer-description')}</li>
-            <li>
-              <img
-                src='assets/images/image-colorizer.jpg'
-                alt='Image Colorizer'
-              />
-            </li>
-          </ul>
-        }
-      />
-      <Card
-        title='RA: Nitrera'
-        inside={
-          <ul>
-            <li>{t('ra-nitrera-description')}</li>
-            <li>
-              <img
-                src='assets/images/nitrera.jpg'
-                alt='RA: Nitrera'
-              />
-            </li>
-          </ul>
-        }
-      />
-      <Card
-        title='Gistura'
-        inside={
-          <ul>
-            <li>{t('gistura-description')}</li>
-            <li>
-              <img
-                src='assets/images/gistura.jpg'
-                alt='Gistura'
-              />
-            </li>
-          </ul>
-        }
-      />
-      <Card
-        title='CV: Robot'
-        inside={
-          <ul>
-            <li>{t('cv-robot-description')}</li>
-            <li>
-              <img
-                src='assets/images/robot.jpg'
-                alt='CV: Robot'
-              />
-            </li>
-          </ul>
-        }
-      />
+      <div className='flex flex-wrap justify-center w-full mt-2'>
+        <div>
+          <Card
+            title='Image Colorizer'
+            inside={
+              <ul>
+                <li>{t('image-colorizer-description')}</li>
+                <li>
+                  <img
+                    src='assets/images/image-colorizer.jpg'
+                    alt='Image Colorizer'
+                  />
+                </li>
+              </ul>
+            }
+          />
+        </div>
+        <div>
+          <Card
+            title='RA: Nitrera'
+            inside={
+              <ul>
+                <li>{t('ra-nitrera-description')}</li>
+                <li>
+                  <img src='assets/images/nitrera.jpg' alt='RA: Nitrera' />
+                </li>
+              </ul>
+            }
+          />
+        </div>
+        <div>
+          <Card
+            title='Gistura'
+            inside={
+              <ul>
+                <li>{t('gistura-description')}</li>
+                <li>
+                  <img src='assets/images/gistura.jpg' alt='Gistura' />
+                </li>
+              </ul>
+            }
+          />
+        </div>
+        <div>
+          <Card
+            title='CV: Robot'
+            inside={
+              <ul>
+                <li>{t('cv-robot-description')}</li>
+                <li>
+                  <img src='assets/images/robot.jpg' alt='CV: Robot' />
+                </li>
+              </ul>
+            }
+          />
+        </div>
       </div>
     </div>
   );

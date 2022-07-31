@@ -28,7 +28,7 @@ const LinksSet = () => {
     return <NetworkLink key={index} site={icon.site} link={icon.link} />;
   });
 
-  return <div className='flex flex-wrap justify-center space-x-5 p-2'>{networkLinks}</div>;
+  return <div className='flex flex-wrap justify-center space-x-5'>{networkLinks}</div>;
 };
 
 export { LinksSet };
