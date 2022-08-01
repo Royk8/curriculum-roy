@@ -20,7 +20,7 @@ const FeaturedProjectsSection = () => {
                 <li>
                   <img
                     src='assets/images/image-colorizer.jpg'
-                    alt='Image Colorizer'
+                    alt='Images-Colorizer'
                   />
                 </li>
               </ul>

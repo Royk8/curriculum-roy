@@ -2,9 +2,6 @@ import React from 'react';
 import { NetworkLink } from 'components/atoms/NetworkLink';
 
 const LinksSet = () => {
-  /**
-   * Create a set of 4 icons with links to github, linkedin, email and itchio
-   */
   const icons = [
     {
       site: 'email',
@@ -24,11 +21,15 @@ const LinksSet = () => {
     },
   ];
 
-  const networkLinks = icons.map((icon, index) => {
-    return <NetworkLink key={index} site={icon.site} link={icon.link} />;
-  });
+  const networkLinks = icons.map((icon) => (
+    <NetworkLink key={icon.site} site={icon.site} link={icon.link} />
+  ));
 
-  return <div className='flex flex-wrap justify-center space-x-5'>{networkLinks}</div>;
+  return (
+    <div className='flex flex-wrap justify-center space-x-5'>
+      {networkLinks}
+    </div>
+  );
 };
 
 export { LinksSet };

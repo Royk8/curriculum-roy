@@ -12,19 +12,17 @@ const languajes = [
     name: 'Español',
     flag: 'assets/images/spain.png',
   },
-]
+];
 
 const LanguageButton = ({ language }) => {
-
-  const pickImage = () => {
-    const l = languajes.find(l => l.name === language);
+  const pickImage = (lang) => {
+    const l = languajes.find((x) => x.name === lang);
     return l ? l.flag : 'flag.png';
   };
 
   const onClick = () => {
-    const l = languajes.find(l => l.name === language);
-    i18next.changeLanguage(l.code);
-  }
+    i18next.changeLanguage(languajes.find((l) => l.name === language).code);
+  };
 
   return (
     <button
