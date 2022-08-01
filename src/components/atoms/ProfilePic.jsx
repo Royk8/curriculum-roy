@@ -5,7 +5,7 @@ const ProfilePic = ({ name, image }) => (
     <div className='bg-yellow-300 p-1 rounded-full m-3'>
       <img src={image} alt='profile' className='rounded-full profile-size' />
     </div>
-    <div className='border border-yellow-300 p-2 rounded-md w-4/5'>
+    <div className='border border-yellow-300 p-2 rounded-md w-full'>
       <h1 className='text-center text-2xl text-white'>{name}</h1>
     </div>
   </div>

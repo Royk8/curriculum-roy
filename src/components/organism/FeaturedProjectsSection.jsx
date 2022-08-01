@@ -7,7 +7,7 @@ const FeaturedProjectsSection = () => {
   const { t } = useTranslation();
   return (
     <div className='flex flex-col items-center justify-center w-4/5 m-2 space-y-2 '>
-      <span className='text-white text-center font-medium p-2 w-full border border-yellow-300'>
+      <span className='text-white text-center font-medium p-2 w-full border border-yellow-300 rounded-md'>
         {t('featured-projects')}
       </span>
       <div className='flex flex-wrap justify-center w-full mt-2'>
