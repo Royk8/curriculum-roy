@@ -19,7 +19,7 @@ const FeaturedProjectsSection = () => {
                 <li>{t('image-colorizer-description')}</li>
                 <li>
                   <img
-                    src='assets/images/image-colorizer.jpg'
+                    src='assets/images/image-colorizer.JPG'
                     alt='Images-Colorizer'
                   />
                 </li>
@@ -34,7 +34,7 @@ const FeaturedProjectsSection = () => {
               <ul>
                 <li>{t('ra-nitrera-description')}</li>
                 <li>
-                  <img src='assets/images/nitrera.jpg' alt='RA: Nitrera' />
+                  <img src='assets/images/nitrera.JPG' alt='RA: Nitrera' />
                 </li>
               </ul>
             }
@@ -47,7 +47,7 @@ const FeaturedProjectsSection = () => {
               <ul>
                 <li>{t('gistura-description')}</li>
                 <li>
-                  <img src='assets/images/gistura.jpg' alt='Gistura' />
+                  <img src='assets/images/gistura.JPG' alt='Gistura' />
                 </li>
               </ul>
             }
@@ -60,7 +60,7 @@ const FeaturedProjectsSection = () => {
               <ul>
                 <li>{t('cv-robot-description')}</li>
                 <li>
-                  <img src='assets/images/robot.jpg' alt='CV: Robot' />
+                  <img src='assets/images/robot.JPG' alt='CV: Robot' />
                 </li>
               </ul>
             }
